@@ -21,11 +21,12 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Ref, ref } from 'vue';
+import type { Ref } from 'vue';
+import { ref } from 'vue';
 
 // 关注点分离：
 // 只关心设备的在线状态
-// 没有关心人员 Staff
+// 不需要关心人员(Staff)
 const deviceGuid = ref('');
 function onlineChange() {
   getDevice(deviceGuid.value).online();
