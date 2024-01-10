@@ -15,7 +15,7 @@ import type { Ref } from 'vue';
 import { ref } from 'vue';
 
 interface IDevice {
-  guid: number;
+  readonly guid: number;
   sum(): void;
 }
 
