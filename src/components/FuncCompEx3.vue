@@ -27,7 +27,7 @@ function sum(val: Ref<number>) {
 
 function useCreateDevice(sumFunc: SumFunc): IDevice {
   // hooks api的精髓：
-  // 1. 闭包
+  // 1. 闭包是根基，如果JavaScript没有闭包，也就无法实现hooks api
   // 2. _guid 改变后，会自动触发该_guid相关联的组件重新渲染
   const _guid: Ref<number> = ref(1);//guid 变量变成了闭包
 
