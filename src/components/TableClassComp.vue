@@ -19,7 +19,8 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Ref, ref } from 'vue';
+import type { Ref } from 'vue';
+import { ref } from 'vue';
 
 const deviceGuid = ref('');
 function onlineChange() {
