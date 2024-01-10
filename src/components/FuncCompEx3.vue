@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Func Comp Ex3</h1>
-    <!--子组件无状态-->
+    <!--子组件无状态，只负责UI-->
     <!--实现了UI与逻辑解耦-->
     <FuncCompEx3SubComp title="sum1" :guid="device1.guid" @sum="device1.sum"/>
     <FuncCompEx3SubComp title="sum2" :guid="device2.guid" @sum="device2.sum"/>
