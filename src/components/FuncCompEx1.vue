@@ -1,6 +1,8 @@
 <template>
   <div>
     <h1>Func Comp Ex1</h1>
+    <!--最差的实现方式-->
+    <!--缺少封装，代码重复-->
     <h1>{{ guid1 }}</h1>
     <button @click="sum1">sum1</button>
     <h1>{{ guid2 }}</h1>
