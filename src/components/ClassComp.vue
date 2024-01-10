@@ -11,7 +11,8 @@
 </template>
 
 <script lang="ts" setup>
-import { Ref, ref } from 'vue';
+import type { Ref } from 'vue';
+import { ref } from 'vue';
 
 interface IDevice {
   guid: number;
