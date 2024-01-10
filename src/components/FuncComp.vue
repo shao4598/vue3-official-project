@@ -17,7 +17,7 @@ import { ref } from 'vue';
 type SumFunc = (val: Ref<number>) => void;
 
 interface IDevice {
-  guid: number;
+  readonly guid: number;
   sum(): void;
 }
 
