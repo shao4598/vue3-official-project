@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Func Comp Ex2</h1>
-    <!--带状态的 UI 组件-->
+    <!--子组件同时管理UI与状态-->
     <!--UI和逻辑耦合了-->
     <FuncCompEx2SubComp/>
     <FuncCompEx2SubComp/>
